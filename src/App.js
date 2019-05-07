@@ -33,7 +33,7 @@ class App extends Component {
     return (
       <Router>
         <div className="flyout">
-          <MDBNavbar color="indigo" dark expand="md" fixed="top" scrolling>
+          <MDBNavbar color="purple" dark expand="md" fixed="top" scrolling>
             <MDBNavbarBrand href="/">
               <Logo style={{ height: '2.5rem', width: "2.5rem" }} />
               MDB React
