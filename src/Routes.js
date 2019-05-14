@@ -102,6 +102,7 @@ class Routes extends React.Component {
         <Route path="/components/panels" component={PanelPage} />
         <Route path="/components/search" component={SearchPage} />
         <Route path="/components/spinner" component={SpinnerPage} />
+        <Route path="/components/accordions" component={CollapsePage} />
         <Route path="/forms/forms" component={FormsPage} />
         <Route path="/forms/validation" component={ValidationPage} />
         <Route path="/forms/input" component={InputPage} />

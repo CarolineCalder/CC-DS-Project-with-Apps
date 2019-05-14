@@ -24,6 +24,7 @@ const ComponentsNavPage = () => {
               <MenuLink to="/components/progress" title="Progress" />
               <MenuLink to="/components/search" title="Search" />
               <MenuLink to="/components/spinner" title="Loader/Spinner" />
+              <MenuLink to="/components/accordions" title="Accordions" />
             </ul>
           </MDBJumbotron>
         </MDBCol>
