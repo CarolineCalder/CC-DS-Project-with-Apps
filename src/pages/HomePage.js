@@ -1,5 +1,5 @@
 import React from "react";
-import { MDBEdgeHeader, MDBFreeBird, MDBContainer, MDBCol, MDBRow, MDBCardBody, MDBIcon, MDBNavLink } from "mdbreact";
+import { MDBEdgeHeader, MDBFreeBird, MDBCol, MDBRow, MDBIcon, MDBJumbotron, MDBBtn, MDBContainer, MDBCardTitle, MDBNavLink, MDBNav, MDBCardImage, MDBCardBody, MDBCardText } from "mdbreact";
 import "./HomePage.css";
 
 class HomePage extends React.Component {
@@ -8,34 +8,21 @@ class HomePage extends React.Component {
       <div>
         <MDBEdgeHeader color="indigo darken-3" />
         <MDBFreeBird>
-          <MDBRow>
-            <MDBCol
-              md="10"
-              className="mx-auto float-none white z-depth-1 py-2 px-2"
-            >
-              <MDBCardBody>
-                <h2 className="h2-responsive mb-4">
-                  <strong>MDB React Demo App</strong>
-                </h2>
-                <p>React Bootstrap with Material Design</p>
-                <p className="pb-4">
-                  This application shows the actual use of MDB React components
-                  in the application.
-                </p>
-                <MDBRow className="d-flex flex-row justify-content-center row">
-                  <a
-                    className="border nav-link border-light rounded mr-1"
-                    href="https://mdbootstrap.com/react/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <MDBIcon icon="graduation-cap" className="mr-2" />
-                    Official Documentation
-                  </a>
-                </MDBRow>
-              </MDBCardBody>
-            </MDBCol>
-          </MDBRow>
+        <MDBRow>
+          <MDBCol>
+            <MDBJumbotron style={{ padding: 0 }}>
+              <MDBCol className="text-white text-center py-5 px-4" style={{ backgroundImage: `url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg)` }}>
+                <MDBCol className="py-5">
+                  <MDBCardTitle className="h1-responsive pt-3 m-5 font-bold">Create your beautiful website with MDBootstrap</MDBCardTitle>
+                  <p className="mx-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
+                    optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos. Odit sed qui, dolorum!
+                  </p>
+                  <MDBBtn outline color="white" className="mb-5"><MDBIcon icon="clone" className="mr-2"></MDBIcon> View project</MDBBtn>
+                </MDBCol>
+              </MDBCol>
+            </MDBJumbotron>
+          </MDBCol>
+        </MDBRow>
         </MDBFreeBird>
         <MDBContainer>
           <MDBRow>
