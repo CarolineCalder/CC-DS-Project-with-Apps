@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse,   MDBNavItem, MDBFooter, MDBNavLink } from "mdbreact";
+import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse,   MDBNavItem, MDBFooter, MDBNavLink, MDBDropdown, MDBDropdownToggle, MDBDropdownMenu,  MDBDropdownItem } from "mdbreact";
 import { ReactComponent as Logo } from './assets/logo.svg';
 import { BrowserRouter as Router } from "react-router-dom";
 import Routes from "./Routes";
@@ -36,7 +36,7 @@ class App extends Component {
           <MDBNavbar color="purple" dark expand="md" fixed="top" scrolling>
             <MDBNavbarBrand href="/">
               <Logo style={{ height: '2.5rem', width: "2.5rem" }} />
-              MDB React
+              Caroline Calder
             </MDBNavbarBrand>
             <MDBNavbarToggler onClick={this.toggleCollapse("mainNavbarCollapse")} />
             <MDBCollapse
@@ -52,6 +52,37 @@ class App extends Component {
                     onClick={this.closeCollapse("mainNavbarCollapse")}
                   >
                     Home
+                  </MDBNavLink>
+                </MDBNavItem>
+                <MDBNavItem>
+                  <MDBNavLink
+                    exact
+                    to="/blog"
+                    onClick={this.closeCollapse("mainNavbarCollapse")}
+                  >
+                    Blog
+                  </MDBNavLink>
+                </MDBNavItem>
+                <MDBNavItem>
+                    <MDBDropdown>
+                      <MDBDropdownToggle nav caret>
+                        <div className="d-none d-md-inline">Services</div>
+                      </MDBDropdownToggle>
+                      <MDBDropdownMenu right>
+                        <MDBDropdownItem href="#!">Digital Marketing</MDBDropdownItem>
+                        <MDBDropdownItem href="#!">Web Development</MDBDropdownItem>
+                        <MDBDropdownItem href="#!">Design</MDBDropdownItem>
+                        <MDBDropdownItem href="#!">Hosting</MDBDropdownItem>
+                      </MDBDropdownMenu>
+                    </MDBDropdown>
+                  </MDBNavItem>
+                  <MDBNavItem>
+                  <MDBNavLink
+                    exact
+                    to="/blog"
+                    onClick={this.closeCollapse("mainNavbarCollapse")}
+                  >
+                    Contact
                   </MDBNavLink>
                 </MDBNavItem>
                 <MDBNavItem>
