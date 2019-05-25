@@ -10,6 +10,9 @@ import AdvancedNavPage from "./pages/AdvancedNavPage";
 import ComponentsNavPage from "./pages/ComponentsNavPage";
 
 // FREE
+import DesignPage from "./pages/DesignPage";
+import MarketingPage from "./pages/MarketingPage";
+import WebPage from "./pages/WebPage";
 import AnimationPage from "./pages/AnimationPage";
 import AlertPage from "./pages/AlertPage";
 import HomePage from "./pages/HomePage";
@@ -71,8 +74,13 @@ class Routes extends React.Component {
         <Route exact path="/modals" component={ModalsNavPage} />
         <Route exact path="/navigation" component={NavigationNavPage} />
         <Route exact path="/tables" component={TablesNavPage} />
+        
+
 
         {/* FREE */}
+        <Route exact path="/services/design" component={DesignPage} />
+        <Route exact path="/services/marketing" component={MarketingPage} />
+        <Route exact path="/services/web" component={WebPage} />
         <Route path="/addons/iframe" component={IframePage} />
         <Route path="/addons/edge-header" component={EdgeHeaderPage} />
         <Route path="/addons/pro/notification" component={NotificationPage} />

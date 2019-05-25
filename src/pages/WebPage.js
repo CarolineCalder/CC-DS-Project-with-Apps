@@ -6,27 +6,56 @@ class HomePage extends React.Component {
   render() {
     return (
       <div>
-        <MDBEdgeHeader color="indigo darken-3" />
+        <MDBEdgeHeader style={{ backgroundImage: `url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg)` }} />
         <MDBFreeBird>
-        <MDBRow>
-          <MDBCol>
-            <MDBJumbotron style={{ padding: 0 }}>
-              <MDBCol className="text-white text-center py-5 px-4" style={{ backgroundImage: `url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg)` }}>
-                <MDBCol className="py-5">
-                  <MDBCardTitle className="h1-responsive pt-3 m-5 font-bold">Create your beautiful website with MDBootstrap</MDBCardTitle>
-                  <p className="mx-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
-                    optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos. Odit sed qui, dolorum!
-                  </p>
-                  <MDBBtn outline color="white" className="mb-5"><MDBIcon icon="clone" className="mr-2"></MDBIcon> View project</MDBBtn>
-                </MDBCol>
-              </MDBCol>
-            </MDBJumbotron>
-          </MDBCol>
-        </MDBRow>
-        </MDBFreeBird>
-        
+        <MDBCard>
+            <MDBCardBody>
+                <h1 className="h1-responsive mb-2">Web Development</h1>
+                <hr></hr>
+              <MDBCardText>
+                  <div class="row">
+              <div class="col-lg-5 col-sm-12">
+            <h5>Development options</h5>
+              <ul>
+                <li>CMS</li>
+                <li>Open Source</li>
+              </ul>
+
+            <h5>SSL Certificates</h5>
+            <p>Keep your website secure with the green lock. Especially important for ecommerce sites.</p>
+
+
+            <h5>HTML Emails templates</h5>
+            <p>Build custom brand aligned email templates for newsletters and promotions.</p>
+            
+            <h5>Hosting and Domain services</h5>
+            <p>Secure domain and host website on shared or independent servers. Keep all services under one umbrella for consistency. </p>
+            </div> 
+            <div class="col-lg-5 col-sm-12">
+            <h5>Event calendar integration</h5>
+            <p>Put real time events into website to always keep users in the know. </p>
+
+            <h5>Ecommerce</h5>
+            <ul>
+              <li>Shopify</li>
+            </ul>
+
+            <h5>Search</h5>
+            <ul>
+            <li>Google analytics integration</li> 
+            <li>Google search console keywords</li>
+            <li>Custom search options</li> 
+          </ul>
+
+            <h5>Page insights</h5>
+            <p>Reduce bloat in website and create the fastest user experience possible to satisfy the user demand. </p>
+          </div>
+        </div>
+              </MDBCardText>
+            </MDBCardBody>
+          </MDBCard>
+          </MDBFreeBird>
         <MDBContainer>
-          
         <MDBCardGroup deck className="mt-3">
           <MDBCard>
             <MDBCardImage
@@ -39,8 +68,6 @@ class HomePage extends React.Component {
             <MDBCardBody>
               <MDBCardTitle tag="h5">Panel title</MDBCardTitle>
               <MDBCardText>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
               </MDBCardText>
               <MDBBtn color="primary" size="md">
                 read more
@@ -59,8 +86,6 @@ class HomePage extends React.Component {
             <MDBCardBody>
               <MDBCardTitle tag="h5">Panel title</MDBCardTitle>
               <MDBCardText>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
               </MDBCardText>
               <MDBBtn color="primary" size="md">
                 read more
@@ -79,8 +104,6 @@ class HomePage extends React.Component {
             <MDBCardBody>
               <MDBCardTitle tag="h5">Panel title</MDBCardTitle>
               <MDBCardText>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
               </MDBCardText>
               <MDBBtn color="primary" size="md">
                 read more

@@ -35,7 +35,7 @@ class App extends Component {
         <div className="flyout">
           <MDBNavbar color="purple" dark expand="md" fixed="top" scrolling>
             <MDBNavbarBrand href="/">
-              <Logo style={{ height: '2.5rem', width: "2.5rem" }} />
+              { /*<Logo style={{ height: '2.5rem', width: "2.5rem" }} /> */}
               Caroline Calder
             </MDBNavbarBrand>
             <MDBNavbarToggler onClick={this.toggleCollapse("mainNavbarCollapse")} />
@@ -54,24 +54,16 @@ class App extends Component {
                     Home
                   </MDBNavLink>
                 </MDBNavItem>
-                <MDBNavItem>
-                  <MDBNavLink
-                    exact
-                    to="/blog"
-                    onClick={this.closeCollapse("mainNavbarCollapse")}
-                  >
-                    Blog
-                  </MDBNavLink>
-                </MDBNavItem>
+                
                 <MDBNavItem>
                     <MDBDropdown>
                       <MDBDropdownToggle nav caret>
                         <div className="d-none d-md-inline">Services</div>
                       </MDBDropdownToggle>
                       <MDBDropdownMenu right>
-                        <MDBDropdownItem href="#!">Digital Marketing</MDBDropdownItem>
-                        <MDBDropdownItem href="#!">Web Development</MDBDropdownItem>
-                        <MDBDropdownItem href="#!">Design</MDBDropdownItem>
+                        <MDBDropdownItem href="/services/marketing">Digital Marketing</MDBDropdownItem>
+                        <MDBDropdownItem href="/services/web">Web Development</MDBDropdownItem>
+                        <MDBDropdownItem href="/services/Design">Design</MDBDropdownItem>
                         <MDBDropdownItem href="#!">Hosting</MDBDropdownItem>
                       </MDBDropdownMenu>
                     </MDBDropdown>

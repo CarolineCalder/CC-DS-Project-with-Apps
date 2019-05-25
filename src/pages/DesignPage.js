@@ -6,27 +6,36 @@ class HomePage extends React.Component {
   render() {
     return (
       <div>
-        <MDBEdgeHeader color="indigo darken-3" />
+        <MDBEdgeHeader style={{ backgroundImage: `url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg)` }} />
         <MDBFreeBird>
-        <MDBRow>
-          <MDBCol>
-            <MDBJumbotron style={{ padding: 0 }}>
-              <MDBCol className="text-white text-center py-5 px-4" style={{ backgroundImage: `url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg)` }}>
-                <MDBCol className="py-5">
-                  <MDBCardTitle className="h1-responsive pt-3 m-5 font-bold">Create your beautiful website with MDBootstrap</MDBCardTitle>
-                  <p className="mx-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
-                    optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos. Odit sed qui, dolorum!
-                  </p>
-                  <MDBBtn outline color="white" className="mb-5"><MDBIcon icon="clone" className="mr-2"></MDBIcon> View project</MDBBtn>
-                </MDBCol>
-              </MDBCol>
-            </MDBJumbotron>
-          </MDBCol>
-        </MDBRow>
-        </MDBFreeBird>
-        
+        <MDBCard>
+            <MDBCardBody>
+                <h1 className="h1-responsive mb-2">Responsive Web Design</h1>
+                <hr></hr>
+              <MDBCardText>
+              <div class="row">
+          <div class="col-lg-5 col-sm-12">
+            <p>Designing for multiple screed widths and devices to create a seamless user experience across the board. Ensure the most relevant information is accessible for every user regardless of medium used </p>
+
+            <h5>User Experience</h5>
+            <p>designing based on the type of user visiting the site. Asking the questing “What are the needs of our customer?” and incorporating that into the overall design. </p>
+            </div>
+            <div class="col-lg-5 col-sm-12">
+            <h5>Testing</h5>
+            <p>Testing is one of the most important steps in responsive design. Devices and browsers all behave differently, so all designs have to be tested in multiple areas.</p>
+            <p>Testing examples:</p>
+            <ul>
+              <li>Multiple devices</li>
+              <li>Browsers</li>
+              <li>Operating systems</li>
+            </ul>
+          </div>
+        </div>
+              </MDBCardText>
+            </MDBCardBody>
+          </MDBCard>
+          </MDBFreeBird>
         <MDBContainer>
-          
         <MDBCardGroup deck className="mt-3">
           <MDBCard>
             <MDBCardImage
@@ -39,8 +48,6 @@ class HomePage extends React.Component {
             <MDBCardBody>
               <MDBCardTitle tag="h5">Panel title</MDBCardTitle>
               <MDBCardText>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
               </MDBCardText>
               <MDBBtn color="primary" size="md">
                 read more
@@ -59,8 +66,6 @@ class HomePage extends React.Component {
             <MDBCardBody>
               <MDBCardTitle tag="h5">Panel title</MDBCardTitle>
               <MDBCardText>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
               </MDBCardText>
               <MDBBtn color="primary" size="md">
                 read more
@@ -79,8 +84,6 @@ class HomePage extends React.Component {
             <MDBCardBody>
               <MDBCardTitle tag="h5">Panel title</MDBCardTitle>
               <MDBCardText>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
               </MDBCardText>
               <MDBBtn color="primary" size="md">
                 read more
