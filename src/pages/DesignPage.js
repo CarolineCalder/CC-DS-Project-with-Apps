@@ -6,7 +6,7 @@ class HomePage extends React.Component {
   render() {
     return (
       <div>
-        <MDBEdgeHeader style={{ backgroundImage: `url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg)` }} />
+        <MDBEdgeHeader style={{ backgroundImage: `url(https://carolinecalder.com/img/web-code-bg.png)` }} />
         <MDBFreeBird>
         <MDBCard>
             <MDBCardBody>
@@ -39,14 +39,14 @@ class HomePage extends React.Component {
         <MDBCardGroup deck className="mt-3">
           <MDBCard>
             <MDBCardImage
-              src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg"
+              src="https://carolinecalder.com/img/card-web.jpg"
               alt="MDBCard image cap"
               top
               hover
               overlay="white-slight"
             />
             <MDBCardBody>
-              <MDBCardTitle tag="h5">Panel title</MDBCardTitle>
+              <MDBCardTitle tag="h5">Web Development</MDBCardTitle>
               <MDBCardText>
               </MDBCardText>
               <MDBBtn color="primary" size="md">
@@ -57,14 +57,14 @@ class HomePage extends React.Component {
 
           <MDBCard>
             <MDBCardImage
-              src="https://mdbootstrap.com/img/Photos/Others/images/14.jpg"
+              src="https://carolinecalder.com/img/card-design.jpg"
               alt="MDBCard image cap"
               top
               hover
               overlay="white-slight"
             />
             <MDBCardBody>
-              <MDBCardTitle tag="h5">Panel title</MDBCardTitle>
+              <MDBCardTitle tag="h5">Responsive Design</MDBCardTitle>
               <MDBCardText>
               </MDBCardText>
               <MDBBtn color="primary" size="md">
@@ -75,14 +75,14 @@ class HomePage extends React.Component {
 
           <MDBCard>
             <MDBCardImage
-              src="https://mdbootstrap.com/img/Photos/Others/images/15.jpg"
+              src="https://carolinecalder.com/img/card-marketing.jpg"
               alt="MDBCard image cap"
               top
               hover
               overlay="white-slight"
             />
             <MDBCardBody>
-              <MDBCardTitle tag="h5">Panel title</MDBCardTitle>
+              <MDBCardTitle tag="h5">Digital Marketing</MDBCardTitle>
               <MDBCardText>
               </MDBCardText>
               <MDBBtn color="primary" size="md">

@@ -26,21 +26,18 @@ class HomePage extends React.Component {
         </MDBFreeBird>
         
         <MDBContainer>
-          
         <MDBCardGroup deck className="mt-3">
           <MDBCard>
             <MDBCardImage
-              src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg"
+              src="https://carolinecalder.com/img/card-web.jpg"
               alt="MDBCard image cap"
               top
               hover
               overlay="white-slight"
             />
             <MDBCardBody>
-              <MDBCardTitle tag="h5">Panel title</MDBCardTitle>
+              <MDBCardTitle tag="h5">Web Development</MDBCardTitle>
               <MDBCardText>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
               </MDBCardText>
               <MDBBtn color="primary" size="md">
                 read more
@@ -50,17 +47,15 @@ class HomePage extends React.Component {
 
           <MDBCard>
             <MDBCardImage
-              src="https://mdbootstrap.com/img/Photos/Others/images/14.jpg"
+              src="https://carolinecalder.com/img/card-design.jpg"
               alt="MDBCard image cap"
               top
               hover
               overlay="white-slight"
             />
             <MDBCardBody>
-              <MDBCardTitle tag="h5">Panel title</MDBCardTitle>
+              <MDBCardTitle tag="h5">Responsive Design</MDBCardTitle>
               <MDBCardText>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
               </MDBCardText>
               <MDBBtn color="primary" size="md">
                 read more
@@ -70,17 +65,15 @@ class HomePage extends React.Component {
 
           <MDBCard>
             <MDBCardImage
-              src="https://mdbootstrap.com/img/Photos/Others/images/15.jpg"
+              src="https://carolinecalder.com/img/card-marketing.jpg"
               alt="MDBCard image cap"
               top
               hover
               overlay="white-slight"
             />
             <MDBCardBody>
-              <MDBCardTitle tag="h5">Panel title</MDBCardTitle>
+              <MDBCardTitle tag="h5">Digital Marketing</MDBCardTitle>
               <MDBCardText>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
               </MDBCardText>
               <MDBBtn color="primary" size="md">
                 read more
