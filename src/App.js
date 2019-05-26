@@ -33,7 +33,7 @@ class App extends Component {
     return (
       <Router>
         <div className="flyout">
-          <MDBNavbar color="purple" dark expand="md" fixed="top" scrolling>
+          <MDBNavbar color="secondary-color" dark expand="md" fixed="top" scrolling>
             <MDBNavbarBrand href="/">
               { /*<Logo style={{ height: '2.5rem', width: "2.5rem" }} /> */}
               Caroline Calder
@@ -64,83 +64,21 @@ class App extends Component {
                         <MDBDropdownItem href="/services/marketing">Digital Marketing</MDBDropdownItem>
                         <MDBDropdownItem href="/services/web">Web Development</MDBDropdownItem>
                         <MDBDropdownItem href="/services/Design">Design</MDBDropdownItem>
-                        <MDBDropdownItem href="#!">Hosting</MDBDropdownItem>
+                        
                       </MDBDropdownMenu>
                     </MDBDropdown>
                   </MDBNavItem>
                   <MDBNavItem>
                   <MDBNavLink
                     exact
-                    to="/blog"
+                    to="/contact"
                     onClick={this.closeCollapse("mainNavbarCollapse")}
                   >
                     Contact
                   </MDBNavLink>
                 </MDBNavItem>
-                <MDBNavItem>
-                  <MDBNavLink
-                    onClick={this.closeCollapse("mainNavbarCollapse")}
-                    to="/css"
-                  >
-                    CSS
-                  </MDBNavLink>
-                </MDBNavItem>
-                <MDBNavItem>
-                  <MDBNavLink
-                    onClick={this.closeCollapse("mainNavbarCollapse")}
-                    to="/components"
-                  >
-                    Components
-                  </MDBNavLink>
-                </MDBNavItem>
-                <MDBNavItem>
-                  <MDBNavLink
-                    onClick={this.closeCollapse("mainNavbarCollapse")}
-                    to="/advanced"
-                  >
-                    Advanced
-                  </MDBNavLink>
-                </MDBNavItem>
-                <MDBNavItem>
-                  <MDBNavLink
-                    onClick={this.closeCollapse("mainNavbarCollapse")}
-                    to="/navigation"
-                  >
-                    Navigation
-                  </MDBNavLink>
-                </MDBNavItem>
-                <MDBNavItem>
-                  <MDBNavLink
-                    onClick={this.closeCollapse("mainNavbarCollapse")}
-                    to="/forms"
-                  >
-                    Forms
-                  </MDBNavLink>
-                </MDBNavItem>
-                <MDBNavItem>
-                  <MDBNavLink
-                    onClick={this.closeCollapse("mainNavbarCollapse")}
-                    to="/tables"
-                  >
-                    Tables
-                  </MDBNavLink>
-                </MDBNavItem>
-                <MDBNavItem>
-                  <MDBNavLink
-                    onClick={this.closeCollapse("mainNavbarCollapse")}
-                    to="/modals"
-                  >
-                    Modals
-                  </MDBNavLink>
-                </MDBNavItem>
-                <MDBNavItem>
-                  <MDBNavLink
-                    onClick={this.closeCollapse("mainNavbarCollapse")}
-                    to="/addons"
-                  >
-                    Addons
-                  </MDBNavLink>
-                </MDBNavItem>
+                
+                
               </MDBNavbarNav>
             </MDBCollapse>
           </MDBNavbar>
@@ -150,7 +88,7 @@ class App extends Component {
           </main>
           <MDBFooter color="indigo" style={{ marginTop: "4rem" }}>
             <p className="footer-copyright mb-0 py-3 text-center">
-              &copy; {new Date().getFullYear()} Copyright: 
+              &copy; {new Date().getFullYear()} Copyright 
             </p>
           </MDBFooter>
         </div>

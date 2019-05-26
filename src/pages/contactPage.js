@@ -6,13 +6,9 @@ class HomePage extends React.Component {
   render() {
     return (
       <div>
-      <MDBJumbotron fluid style={{ backgroundImage: `url(https://carolinecalder.com/img/main-img-re2.jpg)` }}>
+      <MDBEdgeHeader color="light-indigo"/>
         <MDBContainer>
-          <h2 className="text-white display-4">Web Development | Digital Marketing </h2>
-          <p className="lead text-white col-lg-8 col-sm-12">Welcome to Digital Marketing. If you are looking for a starting point to your online business needs I can help. I can give you a basic solution to start growth, or I can grow your already existing online presence. </p>
-          <MDBBtn outline color="white" className="mb-5" href="/contact"><MDBIcon icon="clone" className="mr-2"></MDBIcon> Contact Me</MDBBtn>
-        </MDBContainer>
-      </MDBJumbotron>
+          </MDBContainer>
       <MDBFreeBird>
         <MDBContainer>
         <MDBRow>
@@ -20,14 +16,19 @@ class HomePage extends React.Component {
             <MDBJumbotron>
               <MDBCardBody>
                 <MDBCardTitle className="h2">
-                Websites done different
+                  Contact Me
+                  <hr className="my-4" />
               </MDBCardTitle>
-                
+                <p>
+                  <span className="blue-text my-4 font-weight-bold">Email:</span> contact@carolinecalder.com
+              </p>
+              <p>
+              <span className="blue-text my-4 font-weight-bold">Phone:</span> 403.909.0020
+              </p>
                 <MDBCardText>
-                <p>Start your online journey today. I build websites that perform. I partner with companies and individuals interested in building an online presence to continue healthy business growth. Customized plans are available for your evolving business needs.</p>
-                <p>I am an experienced professional and freelance web developer. I currently reside in Calgary, Alberta, but also have remote clients. I am always looking for opportunities to take on more clients big or small. Please have a look at my <a href="https://www.carolinecalder.com/resume" target="_blank">resume</a> for experience, and feel free to reach out for examples.</p>
+                 
               </MDBCardText>
-                <hr className="my-4" />
+                
                 <div className="pt-2">
                   
                 </div>
@@ -92,8 +93,6 @@ class HomePage extends React.Component {
         </MDBRow>
         </MDBContainer>
         </MDBFreeBird>
-        
-        
       </div>
     );
   }
